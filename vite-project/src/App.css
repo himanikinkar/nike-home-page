@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+
+body {
+  font-family: 'Notable', sans-serif;
+}
+
+:root {
+  --red: #eb0c0c;
+  --grey: #2e2e2e;
+}
+
+* {
+  margin: 0;
+}
+
+button {
+  all: unset;
+  padding: 4px 14px;
+  background: var(--red);
+  height: 32px;
+  color: white;
+  font-weight: 500;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 72px;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+
+}
+
+.hero {
+  margin: 0 auto;
+  max-width: 1280px;
+  display: flex;
+  height: 100vh;
+}
